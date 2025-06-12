@@ -64,7 +64,7 @@ public:
         }
         else
         {
-            // jika elemen yang dihapus berada di poisi terakhir, kembali ke awal array
+            // jika elemen yang dihapus berada di poisi terakhir, kembali ke awal  array
             if (FRONT == max - 1)
                 FRONT = 0;
             else
@@ -72,5 +72,11 @@ public:
         }
     }
 
-    
+    void display()
+    {
+        int FRONT_position = FRONT;
+        int REAR_position = REAR;
+
+        
+    }
 };
