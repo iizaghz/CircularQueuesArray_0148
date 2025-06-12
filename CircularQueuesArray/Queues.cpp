@@ -64,7 +64,7 @@ public:
         }
         else
         {
-            // jika elemen yang dihapus berada di poisi terakhir, kembali ke awal  array
+            // jika elemen yang dihapus berada di poisi terakhir, kembali ke awa  array
             if (FRONT == max - 1)
                 FRONT = 0;
             else
@@ -166,4 +166,4 @@ int main()
             cout << "Check for the values entered." << endl;
         }
     }
-};
+}
