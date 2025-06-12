@@ -1,15 +1,25 @@
 #include <iostream>
-using  namespace std;
+using namespace std;
 
-class Queues {
+class Queues
+{
 private:
     static const int max = 5;
     int FRONT, REAR;
     int queue_array[5];
 
 public:
-    Queues() {
+    Queues()
+    {
         FRONT = -1;
         REAR = -1;
+    }
+
+    void insert()
+    {
+        int num;
+        cout << "Enter a Number :";
+        cin >> num;
+        cout << endl;
     }
 };
