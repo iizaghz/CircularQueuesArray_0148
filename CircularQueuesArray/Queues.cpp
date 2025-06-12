@@ -29,6 +29,11 @@ public:
             return;                       // 1.b
         }
 
+        // 2. cek apakah antrian kosong
+        if (FRONT == -1)
+        {
+          
+        }
         
     }
 };
